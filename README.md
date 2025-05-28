@@ -28,35 +28,6 @@ The Bayesian Blocks algorithm intelligently segments data intervals into variabl
 - 🔬 **Scientific applications**: Tested on real-world scientific datasets
 - 📖 **Well-documented**: Comprehensive examples and documentation
 
-## 🚀 Quick Start
-
-### Installation
-
-```r
-# Install from GitHub (replace with actual repository URL)
-devtools::install_github("your-username/bayesian-blocks-r")
-
-# Or clone and install locally
-git clone https://github.com/your-username/bayesian-blocks-r.git
-cd bayesian-blocks-r
-R CMD INSTALL .
-```
-
-### Basic Usage
-
-```r
-library(BayesianBlocks)
-
-# Generate sample data
-set.seed(123)
-data <- c(rnorm(100, 0, 1), rnorm(50, 3, 0.5), rnorm(75, -2, 0.8))
-
-# Apply Bayesian Blocks algorithm
-blocks <- bayesian_blocks(data)
-
-# Plot results
-plot_blocks(blocks, data)
-```
 
 
 ## 📊 Example Datasets
