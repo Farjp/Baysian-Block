@@ -83,14 +83,6 @@ install.packages("testthat")
 devtools::test()
 ```
 
-## 📖 Documentation
-
-Comprehensive documentation is available:
-
-- **Function references**: `?bayesian_blocks`
-- **Vignettes**: `browseVignettes("BayesianBlocks")`
-- **Examples**: See `examples/` directory
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
