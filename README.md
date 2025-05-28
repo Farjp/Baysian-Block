@@ -64,33 +64,6 @@ The algorithm uses a fitness function based on Bayesian model comparison:
 - Balances model complexity against data fit
 - Uses dynamic programming for efficient optimization
 
-## 🎨 Visualization Features
-
-- **Interactive plots** with block boundaries
-- **Comparison views** between traditional and Bayesian histograms
-- **Customizable styling** for publication-ready figures
-- **Export options** for various formats (PNG, PDF, SVG)
-
-## 🧪 Testing
-
-Run the comprehensive test suite:
-
-```r
-# Install test dependencies
-install.packages("testthat")
-
-# Run tests
-devtools::test()
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
-
-- Code style and standards
-- Testing requirements
-- Documentation expectations
-- Pull request process
 
 ## 📄 License
 
